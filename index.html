@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.min.css" />
     <title>Lina Bo Bardi | Tribute page</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="row">
+        <nav class="column">
             <ul>
                 <li> <a href="#"></a> Home</li>
                 <li> <a href="#"></a> About</li>
@@ -18,10 +19,12 @@
     </header>
 
     <main id="main">
-        <section class="home" >
-            <h1 id="title"> 
-                Lina Bo Bardi
-            </h1>
+        <section>
+            <article>
+                <h1 id="title"> 
+                    Lina Bo Bardi
+                </h1>
+            </article> 
         </section>
         <section class="about">
             <div id="img-div"> 
@@ -29,29 +32,32 @@
                     <img id="image" class="" src="img/lina.png" alt="Lina Bo Bardi">
                 </figure>
                 <figcaption id="img-caption">Lina Bo Bardi</figcaption>
-                <section id="tribute-info">
+                </div>
+                <article id="tribute-info">
                     <a href="http://institutobardi.com.br/?page_id=1896/?page_id=87" target="_blank">Lina Bo Bardi</a> orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur diam ac pharetra tristique. Morbi et mi dignissim, semper dolor et, mattis mi. Nulla accumsan massa dapibus elit commodo, at tincidunt felis laoreet. Pellentesque ultrices libero interdum ipsum congue congue. Suspendisse malesuada augue sit amet porta dictum. Integer ut augue sed erat rhoncus luctus at non sapien. Nam efficitur lorem et lorem interdum, eget ornare eros volutpat. Ut sit amet nisi tortor. Etiam ac quam vel tellus faucibus pulvinar. Vivamus sit amet massa id sem rhoncus faucibus.
-                </section>
-            </div>
+                </article>
 
         </section>
         <section class="work">
 
             <section>
-                <figure>
-                    <img src="img/masp.jpg" alt="Museu do Masp">
-                </figure>
-                <figcaption>
-                    <p>
-                        MASP 21828
-                    </p>
-                </figcaption>
-                <div>
+                <aside>
+                    <figure>
+                        <img src="img/masp.jpg" alt="Museu do Masp">
+                    </figure>
+                    <figcaption>
+                        <p>
+                            MASP 21828
+                        </p>
+                    </figcaption>
+                </aside>
+                
+                <article>
                     <h3> MASP </h3>
                     <p> 
                         Ulla accumsan massa dapibus elit commodo, at tincidunt felis laoreet. Pellentesque ultrices libero interdum ipsum congue congue. Suspendisse malesuada augue sit amet porta dictum. 
                     </p>
-                </div>
+                </article>
             </section>
 
         </section>
